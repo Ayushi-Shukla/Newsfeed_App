@@ -1,0 +1,88 @@
+table, th, td {
+    border: 2px solid black;
+  }
+
+#txtSearch{
+    width: 50%; margin: auto;
+  }
+
+  #searchbtn{
+      margin-top: 5px;
+  }
+  #btnallusers{
+    margin-top: 5px; margin-left: 5px;
+  }
+.nav-item .nav-link:hover { 
+    color: black
+  }
+
+
+  #Searchbtn1{
+    float: right;
+}
+#txtSearch1{float: right;
+  height: 35px; width: 25%;
+}
+
+
+.navbar-nav{ 
+float: right;
+}
+
+.navbar-brand{font-family: cursive; font-size: 30px; 
+    color: rgb(131, 64, 26)
+}
+.nav-item .nav-link{ font-size: 20px; margin-right: 10px;
+    color: rgb(131, 64, 26);
+}
+.goback{
+    padding-top: 20%;
+}
+h2{
+  text-align: center; font-family: cursive; margin-bottom: 20px;    color: rgb(131, 64, 26);
+}
+.clearfix{
+  padding: 20px;
+}
+.btn-outline-secondary
+{
+   color: rgb(104, 52, 21)
+}
+
+.btn-outline-secondary:hover{
+   color: rgb(51, 24, 124)
+}
+
+/* .card{
+   width:30%; color:rgb(46, 10, 104);
+   background-color: rgb(174, 230, 216);
+   font-family:Georgia, 'Times New Roman', Times, serif;
+} */
+#address{
+  margin-left:60%; margin-top: 5%; text-align: justify;
+  color: rgb(104, 52, 21)
+}
+
+#modalhead{
+  color: rgb(104, 52, 21); background-color: rgb(164, 224, 187);
+}
+#modalfooter{
+  color: rgb(104, 52, 21); background-color: rgb(164, 224, 187)
+
+}
+.btn-secondary:hover{
+  color: rgb(59, 11, 230)
+}
+.card_user{background-color: rgb(238, 232, 226); border: 2px solid black;
+  margin-left:100px; 
+  font-family: 'Times New Roman', Times, serif
+}
+h4{
+  margin-bottom: 0
+}
+.card_user-img-top{
+  width:50%; margin: 0 75px 0 75px;
+}
+.card-footer{
+border-top: 1px solid black;
+}

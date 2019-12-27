@@ -1,0 +1,49 @@
+
+.container{
+    display: block; text-align: center; background-color:rgb(224, 160, 95);
+    width: 50%;
+    margin: 30px auto 0 auto;
+    box-sizing: border-box;
+    border: 5px solid rgb(54, 51, 51);
+    padding: 40px 50px 25px 50px;
+    font-family: Arial,sans-serif;
+    font-size: 14px;  box-shadow: 5px 10px #888888;
+}
+#loginbtn1:hover{
+    color: greenyellow
+}
+h2{
+    text-align:center; font-family: cursive; 
+}
+#h3{
+
+    text-align:center; font-family: cursive; 
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+.nav-item .nav-link:hover { 
+    color: red  }
+
+.navbar-nav{ 
+float: right;
+}
+
+.navbar-brand{font-family: cursive; font-size: 30px; 
+    color: peru
+}
+.nav-item .nav-link{ font-size: 20px; margin-right: 10px;
+  
+    color: peru
+}
+
+
+.footer{position: fixed;
+    left: 0; bottom: 0; width: 100%;  background-color: black;
+    color: rgb(131, 64, 26); text-align: center; height:45px; font-weight: bold;
+  margin-top: 123px
+}
+
+
+

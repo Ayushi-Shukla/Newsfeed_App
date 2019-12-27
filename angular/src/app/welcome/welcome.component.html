@@ -1,0 +1,136 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark " style="background-color:rgb(4, 189, 115)">
+    <a class="navbar-brand" href="">News Search</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/logout" id="logout"><span class="glyphicon glyphicon-log-out"></span> Logout </a>
+        </li>
+        <li class="nav-item">
+          <a data-toggle="modal" id="about" data-target="#myModalabt" class="nav-link" href="#"><span class="glyphicon glyphicon-menu-hamburger"></span> About </a>
+        </li>
+        <li class="nav-item">
+          <a data-toggle="modal" id="contact" data-target="#myModal" class="nav-link" href="#"><span class="glyphicon glyphicon-phone"></span> Contact </a>
+        </li>
+      </ul>
+    </div>
+  </nav> 
+
+
+
+
+<!-- About us model -->
+  <div id="myModalabt" class="modal hide" role="dialog">
+      <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header" id="modalhead">
+              <h3 style="font-size: 30px">About Us</h3>
+          </div>
+          <div class="modal-body" style="color:rgb(47, 5, 197); font-size: 14px">
+              Trusted, Respected And Followed. When it comes to news that matters, there is only one name that comes to the nation’s mind. News Search stands steadfast as India’s undisputed number one news channel and the undisputed leader ever since its launch on 31st Dec 2000. Part of the TV Today Network, News Search dominates the media space and has been setting the news agenda for the country since its inception.
+              <br>
+              <br>
+              The channel started as a half hour daily news & current affairs programme on Doordarshan and with its differentiated treatment of news coverage, grew to become the most watched 24hrs news channel for 17 years in a row. 
+              <br>
+              <br>
+              News Search has taken its leadership beyond the newsroom by winning at each and every Industry Award as the nation’s best and most preferred Hindi News Channel, with awards for editorial and journalistic brilliance. The channel has maintained the leadership with its pioneering initiatives of adapting the latest technology and going beyond conventional News coverage to bring the best to the viewers. 
+              <br>
+              <br>
+              Innovative technology like being the first Indian News channel to use drone camera for active news coverage, interviews on teleportation, the implementation of the latest technologies in news delivery besides a slew of new programming initiatives, exclusive interviews and Industry first events have kept the channel in pole position. Pioneering event properties like Agenda News Search, Safaigiri, Sahitya News Search, Salaam Cricket, Budget News Search and Panchayat News Search have kept the channel way ahead of the pack. These thought leadership events have become definitive platforms for bringing national issues into perspective. The channel commands leadership status as the nation’s most watched News Channel that has held the Numero Uno position unchallenged for the last 17 years.
+          </div>
+          <div class="modal-footer" id="modalfooter">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+<!-- Contact us model -->
+  <div id="myModal" class="modal hide" role="dialog">
+    <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header" id="modalhead">
+            <h3 style="font-size: 30px" id="cont">Contact Us</h3>
+        </div>
+        <div class="modal-body">
+            <div class="col-md-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7777.039640232077!2d80.23209062440141!3d12.938554299096161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe849f008e0b4a85e!2sASV+Suntech+Park!5e0!3m2!1sen!2sin!4v1551686821498" width="150%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              <div id="address" class="text-center" style="font-family:Arial, Helvetica, sans-serif">
+                <h3 style="color:rgb(59, 11, 230)">Address:</h3>
+                <h4 style="color:rgb(59, 11, 230)">
+                  ASV Suntech Park: No.148,<br>
+                  Old Mahabalipuram Rd, Oggiam,<br>
+                  Thoraipakkam, Chennai,<br>
+                  Tamil Nadu - 600096
+                  <br>
+                  <br>
+                  Phone: 987654321
+                  <br>
+                  <br>
+                  Email: ASV@chennai.com
+                </h4>
+                <div style="margin-top:10%;">
+                <a href="https://www.facebook.com/" class="fa fa-facebook-square" style="color:black; font-size:30px;padding-right:5px"></a>
+                <a href="https://twitter.com/login?lang=en" class="fa fa-twitter" style="color:black; font-size:30px;padding-right:5px"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram" style="color:black; font-size:30px;padding-right:5px"></a>
+                <a href="https://in.pinterest.com/" class="fa fa-pinterest-p" style="color:black; font-size:30px"></a>
+              </div>
+              </div>
+              
+            </div>
+        <div class="modal-footer" id="modalfooter">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>WELCOME</h2>
+        <div>
+          <button class="btn btn-success btn-md" id="previousSearchbtn"  (click)="searchedList()"><span class="glyphicon glyphicon-hourglass"></span> Previously searched
+            words</button>
+          <input type="search"  name="search"  [(ngModel)]="searchText" class="form-control" placeholder="Search News"
+            id="txtSearch" />
+          <button class="btn btn-success btn-md text-center" id="Searchbtn" (click)="search()">Search</button>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="row">
+            <div class="card col-md-4 col-sm-4" *ngFor="let news1 of news">
+              <img class="card-img-top" src="{{news1.urlToImage}}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align:center">{{news1.title}}</h5>
+                <div class="text-center">
+                <a href="{{news1.url}}" class="btn btn-outline-secondary">Read
+                  More..</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>

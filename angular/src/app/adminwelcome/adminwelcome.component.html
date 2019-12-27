@@ -1,0 +1,283 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+  integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<nav class="navbar navbar-expand-md navbar-dark " style="background-color:rgb(4, 189, 115)">
+  <a class="navbar-brand" href="">News Search</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/logout"><span class="glyphicon glyphicon-log-out"></span> Logout </a>
+      </li>
+      <li class="nav-item">
+        <a data-toggle="modal" id="about" data-target="#myModalabt" class="nav-link" href="#"><span
+            class="glyphicon glyphicon-menu-hamburger"></span> About </a>
+      </li>
+      <li class="nav-item">
+        <a data-toggle="modal" id="contact" data-target="#myModal" class="nav-link" href="#"><span
+            class="glyphicon glyphicon-phone"></span> Contact </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+<div id="myModalabt" class="modal hide" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header" id="modalhead">
+        <h3 style="font-size: 30px">About Us</h3>
+      </div>
+      <div class="modal-body" style="color:rgb(47, 5, 197); font-size: 14px">
+        Trusted, Respected And Followed. When it comes to news that matters, there is only one name that comes to the
+        nation’s mind. News Search stands steadfast as India’s undisputed number one news channel and the undisputed
+        leader ever since its launch on 31st Dec 2000. Part of the TV Today Network, News Search dominates the media
+        space and has been setting the news agenda for the country since its inception.
+        <br>
+        <br>
+        The channel started as a half hour daily news & current affairs programme on Doordarshan and with its
+        differentiated treatment of news coverage, grew to become the most watched 24hrs news channel for 17 years in a
+        row.
+        <br>
+        <br>
+        News Search has taken its leadership beyond the newsroom by winning at each and every Industry Award as the
+        nation’s best and most preferred Hindi News Channel, with awards for editorial and journalistic brilliance. The
+        channel has maintained the leadership with its pioneering initiatives of adapting the latest technology and
+        going beyond conventional News coverage to bring the best to the viewers.
+        <br>
+        <br>
+        Innovative technology like being the first Indian News channel to use drone camera for active news coverage,
+        interviews on teleportation, the implementation of the latest technologies in news delivery besides a slew of
+        new programming initiatives, exclusive interviews and Industry first events have kept the channel in pole
+        position. Pioneering event properties like Agenda News Search, Safaigiri, Sahitya News Search, Salaam Cricket,
+        Budget News Search and Panchayat News Search have kept the channel way ahead of the pack. These thought
+        leadership events have become definitive platforms for bringing national issues into perspective. The channel
+        commands leadership status as the nation’s most watched News Channel that has held the Numero Uno position
+        unchallenged for the last 17 years.
+      </div>
+      <div class="modal-footer" id="modalfooter">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div id="myModal" class="modal hide" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header" id="modalhead">
+        <h3 style="font-size: 30px" id="cont">Contact Us</h3>
+      </div>
+      <div class="modal-body">
+        <div class="col-md-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7777.039640232077!2d80.23209062440141!3d12.938554299096161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe849f008e0b4a85e!2sASV+Suntech+Park!5e0!3m2!1sen!2sin!4v1551686821498"
+            width="150%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div id="address" class="text-center" style="font-family:Arial, Helvetica, sans-serif">
+          <h3 style="color:rgb(59, 11, 230)">Address:</h3>
+          <h4 style="color:rgb(59, 11, 230)">
+            ASV Suntech Park: No.148,<br>
+            Old Mahabalipuram Rd, Oggiam,<br>
+            Thoraipakkam, Chennai,<br>
+            Tamil Nadu - 600096
+            <br>
+            <br>
+            Phone: 987654321
+            <br>
+            <br>
+            Email: ASV@chennai.com
+          </h4>
+          <div style="margin-top:10%;">
+            <a href="https://www.facebook.com/" class="fa fa-facebook-square"
+              style="color:black; font-size:30px;padding-right:5px"></a>
+            <a href="https://twitter.com/login?lang=en" class="fa fa-twitter"
+              style="color:black; font-size:30px;padding-right:5px"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"
+              style="color:black; font-size:30px;padding-right:5px"></a>
+            <a href="https://in.pinterest.com/" class="fa fa-pinterest-p" style="color:black; font-size:30px"></a>
+          </div>
+        </div>
+
+      </div>
+      <div class="modal-footer" id="modalfooter">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div>
+  <span *ngIf="isavailable; then condition1 else condition2"></span>
+  <ng-template #condition1>
+    <h2> Welcome Admin! </h2>
+    <form>
+      <div id="searchuser" class="text-center">
+        <input type="search" id="txtSearch"  name="search"  [(ngModel)]="searchText1" class="form-control"
+          placeholder="Search user here" />
+        <button class="btn btn-success" id="searchbtn" (click)="searchuser()">Search User</button>
+        <button class="btn btn-success" id="btnallusers" (click)="getallusers()">Get all users</button>
+      </div>
+    </form>
+
+
+    <div>
+      <button class="btn btn-secondary" id="previousSearchbtn1" (click)="searchedList()">Previously searched
+        words</button>
+      <input type="search"  name="search"  [(ngModel)]="searchText" class="form-control" placeholder="Search News"
+        id="txtSearch1" />
+      <button class="btn btn-secondary" id="Searchbtn1" (click)="search()">Search</button>
+    </div>
+    <div class="clearfix"></div>
+    <div class="container">
+    <div class="row justify-content-center">
+      <div class="card col-md-3 mx-4 mb-4" *ngFor="let news1 of news">
+        <img class="card-img-top" src="{{news1.urlToImage}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align:center">{{news1.title}}</h5>
+          <div class="text-center">
+            <a href="{{news1.url}}" class="btn btn-outline-secondary">Read
+              More..</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    
+
+  </ng-template>
+
+
+  <ng-template #condition2>
+
+    <div *ngIf="!show">
+      <h2> List of users </h2>
+      <!-- <table class="table" style="width:50%; margin: auto">
+        <tr>
+          <th>Id</th>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Active Status</th>
+          <th>Block User</th>
+          <th>Unblock User</th>
+
+        </tr>
+        <tr *ngFor="let User of userList">
+          <td>{{User.id}}</td>
+          <td>{{User.username}}</td>
+          <td>{{User.email}}</td>
+          <td>{{User.activeStatus}}</td>
+          <td>
+            <button class="btn btn-danger btn-sm" [disabled]='User.activeStatus===false'
+              (click)="blacklistUser1(User.id,User.activeStatus)">Block user</button>
+          </td>
+          <td>
+            <button class="btn btn-success btn-sm" [disabled]='User.activeStatus===true'
+              (click)="blacklistUser1(User.id,User.activeStatus)">Unblock user</button>
+          </td>
+        </tr>
+      </table> -->
+      <div class="row">
+        <div class="card_user col-sm-6 col-md-4 col-lg-4 mt-4" *ngFor="let User of userList">
+          <img class="card_user-img-top"
+            src="data:image/png;base64,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">
+          <div class="card-block">
+            <h4 class="card-title text-center">
+              <span class="fa fa-user" style="float:left"> {{User.username}}</span>
+              <span class="fa fa-envelope" style="float:right"> {{User.email}}</span>
+            <br>
+            <span style="float:left"> Id: {{User.id}}</span>
+                <span *ngIf='User.activeStatus' style="float:right">
+                    <a style="color:green">Status: Active</a>
+                </span>
+                  <span *ngIf='!User.activeStatus===true' class="card-text text-center" style="float:right">
+                    <a style="color:red">Status: Inactive</a>
+                  </span>
+            <br>
+            </h4>
+            <br>
+            
+          </div>
+          <div class="card-footer">
+            <span class="float-right">
+              <button class="btn btn-danger btn-sm" [disabled]='User.activeStatus===false'
+                (click)="blacklistUser1(User.id,User.activeStatus)"><span class="	fas fa-thumbs-down"></span> Block
+                user</button>
+            </span>
+            <span><i class=""></i>
+              <button class="btn btn-success btn-sm" [disabled]='User.activeStatus===true'
+                (click)="blacklistUser1(User.id,User.activeStatus)">Unblock user</button>
+            </span>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="text-center">
+        <button class="btn btn-link" (click)="goback()">Go back</button>
+      </div>
+    </div>
+
+
+    <div *ngIf="!show1">
+
+      <h2> List of users </h2>
+      <table class="table" style="width:50%; margin: auto">
+        <tr>
+          <th>Id</th>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Active Status</th>
+          <th>Block User</th>
+          <th>Unblock User</th>
+
+        </tr>
+        <tr *ngFor="let User of userList">
+          <td>{{User.id}}</td>
+          <td>{{User.username}}</td>
+          <td>{{User.email}}</td>
+          <td>{{User.activeStatus}}</td>
+          <td>
+            <button class="btn btn-danger btn-sm" [disabled]='User.activeStatus===false'
+              (click)="blacklistUser(User.id,User.activeStatus)">Block user</button>
+          </td>
+          <td>
+            <button class="btn btn-success btn-sm" [disabled]='User.activeStatus===true'
+              (click)="blacklistUser(User.id,User.activeStatus)">Unblock user</button>
+          </td>
+        </tr>
+      </table>
+      <div class="text-center">
+        <button class="btn btn-link" (click)="goback()">Go back</button>
+      </div>
+    </div>
+  </ng-template>
+
+</div>

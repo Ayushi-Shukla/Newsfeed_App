@@ -1,0 +1,29 @@
+<!-- 
+  <h3> List of users </h3>
+  <table class="table" style="width:50%; margin: auto">
+    <tr>
+      <th>Id</th>
+      <th>Username</th>
+      <th>Email</th>
+      <th>Active Status</th>
+      <th>Block User</th>
+      <th>Unblock User</th>
+
+    </tr>
+    <tr *ngFor="let User of userList">
+      <td>{{User.id}}</td>
+      <td>{{User.username}}</td>
+      <td>{{User.email}}</td>
+      <td>{{User.activeStatus}}</td>
+      <td>
+      <button class="btn btn-danger btn-sm" [disabled]='User.activeStatus===false' (click)="blacklistUser(User.id,User.activeStatus)">Block user</button>
+      </td>
+      <td>
+      <button class="btn btn-success btn-sm" [disabled]='User.activeStatus===true' (click)="blacklistUser(User.id,User.activeStatus)">Unblock user</button>
+      </td>
+    </tr>
+  </table>
+  <div class="text-center">
+    <a href="adminwelcome">Go back</a>
+  </div>
+ -->

@@ -1,0 +1,11 @@
+table, th, td {
+    border: 2px solid black;
+  }
+  .container{
+width: 60%; margin:auto;
+  }
+  th{
+    text-align:center
+  }
+
+  
